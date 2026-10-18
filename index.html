@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Рабочие инструкции и технологическая документация для производственных предприятий.">
+<title>УРАЛНИМБУС — инженерная документация и приборостроение</title>
+<style>
+	.mark img {
+  width: 64px;
+  height: 48px;
+  object-fit: contain;
+  display: block;
+	}
+	.yandex-form {
+    width: 100%;
+    min-width: 0;
+
+    border-radius: 8px;
+}
+
+	.yandex-form iframe {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border: 0;
+    min-height: 800px;
+}
+
+/* Мобильные устройства */
+@media (max-width: 560px) {
+    .yandex-form iframe {
+        min-height: 800px;
+    }
+}
+
+:root{--bg:#101318;--panel:#171c23;--panel2:#1d242d;--line:#303944;--text:#f1f4f7;--muted:#a5afbb;--accent:#ff7139;--accent2:#ff8d5e;--max:1160px}
+*
+{
+	box-sizing:border-box;
+}
+html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}.topline{height:4px;background:var(--accent)}header{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(16,19,24,.94);backdrop-filter:blur(14px);z-index:20}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-weight:850;letter-spacing:.12em}.mark{width:56px;height:48px;display:grid;place-items:center;color:#f1f4f7;flex-shrink:0}.mark svg{width:44px;height:34px;display:block}.brand small{display:block;color:var(--muted);font-size:9px;letter-spacing:.14em;font-weight:600;margin-top:-3px}.links{display:flex;gap:26px;color:#c4cbd3;font-size:13px}.links a:hover{color:var(--accent)}.navcta,.btn{border:1px solid var(--accent);padding:12px 17px;border-radius:5px;font-size:13px;font-weight:750;display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;transition:.2s}.navcta,.btn.primary{background:var(--accent);color:#15181d}.btn:hover,.navcta:hover{transform:translateY(-2px);filter:brightness(1.06)}.btn.secondary{border-color:#48515d;color:var(--text);background:transparent}.hero{padding:88px 0 70px;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;right:-120px;top:40px;width:540px;height:540px;border:1px solid #29323d;border-radius:50%;box-shadow:0 0 0 55px #101318,0 0 0 56px #252d37,0 0 0 112px #101318,0 0 0 113px #202832;opacity:.6;pointer-events:none}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center;position:relative;z-index:1}.eyebrow{display:flex;align-items:center;gap:10px;text-transform:uppercase;font-size:11px;letter-spacing:.18em;color:var(--accent);font-weight:800}.eyebrow:before{content:"";width:24px;height:2px;background:var(--accent)}h1{font-size:clamp(42px,5.5vw,70px);line-height:1.02;letter-spacing:-.055em;margin:22px 0}.hero h1 span{color:var(--accent)}.lead{font-size:18px;color:#bac3cd;max-width:610px;line-height:1.7}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:30px 0 25px}.micro{color:var(--muted);font-size:12px}.technical-card{background:linear-gradient(145deg,#202731,#14181e);border:1px solid #39424e;padding:24px;border-radius:10px;position:relative;min-height:370px;box-shadow:0 22px 70px #0003}.card-top{display:flex;justify-content:space-between;align-items:center;font-size:10px;letter-spacing:.13em;color:#aeb7c1}.status{color:#ff9b73}.drawing{margin:25px 0 18px;width:100%;height:210px;border:1px solid #303b48;background-image:linear-gradient(#ffffff08 1px,transparent 1px),linear-gradient(90deg,#ffffff08 1px,transparent 1px);background-size:20px 20px;display:grid;place-items:center;overflow:hidden}.drawing svg{width:92%;height:90%}.specs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.spec{border-top:1px solid #38414c;padding-top:10px}.spec b{display:block;font-size:12px}.spec span{color:var(--muted);font-size:10px}.section{padding:78px 0;border-top:1px solid #252c35}.section-head{display:flex;justify-content:space-between;gap:35px;align-items:end;margin-bottom:34px}.kicker{color:var(--accent);font-size:11px;font-weight:800;letter-spacing:.17em;text-transform:uppercase}.section h2{font-size:clamp(30px,4vw,46px);line-height:1.08;letter-spacing:-.04em;margin:12px 0 0;max-width:720px}.section-head p{max-width:370px;color:var(--muted);font-size:14px;margin:0}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.service{border:1px solid var(--line);background:var(--panel);padding:25px;border-radius:8px;min-height:255px;display:flex;flex-direction:column}.num{font-size:11px;color:var(--accent);letter-spacing:.1em}.service h3{font-size:19px;line-height:1.25;margin:26px 0 10px}.service p{font-size:13px;color:var(--muted);margin:0 0 20px}.service ul{padding-left:18px;margin:0;color:#d4dae1;font-size:12px}.service li{margin:7px 0}.note{border-left:2px solid var(--accent);padding:12px 16px;background:#ff71390d;color:#cbd2da;font-size:12px;margin-top:16px}.process{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:8px;overflow:hidden}.step{padding:24px;border-right:1px solid var(--line);background:var(--panel)}.step:last-child{border:0}.step .n{font-size:28px;font-weight:850;color:var(--accent)}.step h3{font-size:15px;margin:14px 0 8px}.step p{font-size:12px;color:var(--muted);margin:0}.fit-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.fit{padding:27px;background:var(--panel);border:1px solid var(--line);border-radius:8px}.fit h3{margin:0 0 16px;font-size:18px}.fit ul{padding:0;list-style:none;margin:0}.fit li{padding:9px 0;border-top:1px solid #2b333d;font-size:13px;color:#cbd2da}.fit li:before{content:"↗";color:var(--accent);margin-right:10px}.future{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.future-card{padding:24px;border:1px dashed #414b58;border-radius:8px;background:#ff71390d;position:relative; background-color: rgba(255, 113, 57, 0.05)}.future-card .tag{display:inline-block;font-size:9px;text-transform:uppercase;letter-spacing:.13em;color:#c4ccd5;border:1px solid #48515d;padding:5px 7px;border-radius:3px}.future-card h3{font-size:18px;margin:18px 0 8px}.future-card p{font-size:13px;color:var(--muted);margin:0}.future-card .icon{font-size:25px;color:var(--accent)}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px}.contact-copy p{color:var(--muted);font-size:14px}.contact-meta{margin-top:28px;padding-top:18px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}form{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:25px;display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:11px;color:#cbd2da;font-weight:700}.field input,.field textarea,.field select{width:100%;background:#101419;border:1px solid #3b4551;border-radius:4px;padding:12px;color:var(--text);outline:none}.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--accent)}.field textarea{min-height:100px;resize:vertical}.privacy{font-size:10px;color:var(--muted);grid-column:1/-1}.form-msg{display:none;grid-column:1/-1;background:#25372e;border:1px solid #3b7353;padding:12px;border-radius:4px;color:#d9f7e5;font-size:12px}.submit{grid-column:1/-1;justify-self:start}.faq{display:grid;grid-template-columns:1fr 1fr;gap:12px}.faq details{padding:18px;border:1px solid var(--line);background:var(--panel);border-radius:6px}.faq summary{font-size:13px;font-weight:750;cursor:pointer}.faq details p{color:var(--muted);font-size:12px;margin-bottom:0}.footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:11px}.footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer strong{color:var(--text);letter-spacing:.1em}.disclaimer{font-size:10px;color:#798490;margin-top:8px}
+@media(max-width:850px){.links{display:none}.hero-grid,.contact-grid{grid-template-columns:1fr}.hero{padding:60px 0}.hero:after{right:-350px;opacity:.35}.technical-card{max-width:560px}.section-head{display:block}.section-head p{margin-top:15px}.services{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr 1fr}.step:nth-child(2){border-right:0}.step:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+@media(max-width:560px){.wrap{width:min(var(--max),calc(100% - 28px))}.nav{height:65px}.navcta{padding:10px 11px;font-size:11px}.brand{font-size:13px}.brand small{font-size:8px}.hero{padding:48px 0}.hero h1{font-size:43px}.lead{font-size:15px}.technical-card{padding:16px;min-height:0}.drawing{height:170px}.section{padding:55px 0}.services,.future,.fit-grid,.faq{grid-template-columns:1fr}.service{min-height:0}.process{grid-template-columns:1fr}.step,.step:nth-child(2){border-right:0;border-bottom:1px solid var(--line)}.step:last-child{border-bottom:0}.section-head{margin-bottom:25px}form{grid-template-columns:1fr;padding:17px}.field.full,.privacy,.submit,.form-msg{grid-column:1}.footer-row{align-items:flex-start;flex-direction:column}.actions .btn{width:100%}}
+</style>
+</head>
+<body>
+<div class="topline"></div>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="УРАЛНИМБУС — на главную"><span class="mark" aria-hidden="true">
+		<img src="images/logo-ff7139.svg">
+	</span><span>УРАЛНИМБУС<small>ИНЖЕНЕРНЫЕ РЕШЕНИЯ</small></span></a>
+    <nav class="links" aria-label="Основная навигация">
+      <a href="#services">Услуги</a>
+	  <a href="#process">Как работаем</a>
+	  <a href="#experience">Опыт отраслей</a>
+	  <a href="#about">О компании</a>
+	  <a href="#future">Развитие</a>
+    </nav>
+    <a class="navcta" href="#contact">Обсудить задачу ↗</a>
+  </div>
+</header>
+<main id="top">
+<section class="hero">
+  <div class="wrap hero-grid">
+  
+    <div>
+      <div class="eyebrow">Инженерная поддержка производства</div>
+      <h1>Документация,<br>с которой <span>работают.</span></h1>
+      <p class="lead">Разрабатываем и актуализируем рабочие инструкции и технологическую документацию для производственных предприятий.</p>
+      <div class="actions"><a class="btn primary" href="#contact">Обсудить задачу <span>↗</span></a><a class="btn secondary" href="#services">Посмотреть услуги ↓</a></div>
+      <p class="micro">Работаем по исходным данным и требованиям заказчика. 
+		Объём, сроки и результат согласуем до начала работ.</p>
+    </div>
+    <div class="technical-card" aria-label="Схематичная инженерная документация">
+      <div class="card-top"><span>URALNIMBUS / 001</span><span class="status">● ENGINEERING</span></div>
+      <div class="drawing">
+        <svg viewBox="0 0 420 210" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Абстрактный технический чертёж">
+          <g stroke="#748291" stroke-width="1" opacity=".8">
+            <path d="M36 32H178V165H36Z"/><path d="M58 52H155V145H58Z"/>
+            <path d="M36 98H178M107 32V165"/><path d="M24 32V165M20 32H29M20 165H29"/>
+            <path d="M36 178H178M36 174V182M178 174V182"/>
+            <path d="M221 45H370V77H221Z"/><path d="M221 91H370V123H221Z"/><path d="M221 137H370V169H221Z"/>
+            <path d="M234 55H254M234 101H287M234 147H267" stroke="#ff7139" stroke-width="2"/>
+            <path d="M263 55H354M299 101H354M279 147H354" opacity=".55"/>
+          </g>
+          <g fill="#cbd4de" font-size="9" font-family="monospace"><text x="38" y="22">URALNIMBUS / FIG. 01</text><text x="221" y="32">ENGINEERING SYSTEMS</text><text x="38" y="197">REV. A / 2026</text></g>
+          <circle cx="107" cy="98" r="19" stroke="#ff7139" stroke-width="1.5"/><path d="M99 98L105 104L116 91" stroke="#ff7139" stroke-width="2"/>
+        </svg>
+      </div>
+      <div class="specs"><div class="spec"><b>01 / Анализ</b><span>Исходных данных</span></div><div class="spec"><b>02 / Разработка</b><span>Документации</span></div><div class="spec"><b>03 / Согласование</b><span>Результата</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="section-head"><div><div class="kicker">01 / Услуги</div><h2>Документы для реальной работы, а не для папки на полке.</h2></div><p>Начинаем с конкретной производственной задачи. Состав и формат результата согласуем с вашей командой.</p></div>
+    <div class="services">
+      <article class="service"><div class="num">SERVICE / 01</div><h3>Рабочие инструкции</h3><p>Пошаговые документы, помогающие сотруднику правильно и последовательно выполнять операцию.</p><ul><li>Сборка и монтаж</li><li>Упаковка и маркировка</li><li>Визуальные инструкции по предоставленным материалам</li></ul></article>
+      <article class="service"><div class="num">SERVICE / 02</div><h3>Технологическая документация</h3><p>Разработка и актуализация документов на основании исходных данных и требований предприятия.</p><ul><li>Оформление и структурирование материалов</li><li>Согласование изменений</li><li>Подготовка шаблонов документов</li></ul></article>
+      <article class="service"><div class="num">SERVICE / 03</div><h3>Формы производственного контроля</h3><p>Удобные формы для регистрации результатов проверок и работы с производственными записями.</p><ul><li>Чек-листы и журналы</li><li>Формы регистрации несоответствий</li><li>Шаблоны отчётности в Excel</li></ul></article>
+    </div>
+    <div class="note">Важно: технические параметры и правильность производственного процесса подтверждает заказчик или назначенный им профильный специалист. Работы по специальным отраслевым требованиям оцениваются отдельно.</div>
+  </div>
+</section>
+
+<section class="section" id="process">
+  <div class="wrap">
+    <div class="section-head"><div><div class="kicker">02 / Процесс</div><h2>Понятный порядок работы на каждом этапе.</h2></div><p>Без расплывчатого «сделаем под ключ». Фиксируем задачу, границы работ и критерии приёмки.</p></div>
+    <div class="process">
+      <article class="step"><div class="n">01</div><h3>Изучаем задачу</h3><p>Получаем исходные документы, примеры, требования и уточняем пользователей инструкции.</p></article>
+      <article class="step"><div class="n">02</div><h3>Согласуем объём</h3><p>Определяем состав документа, формат, сроки, стоимость и порядок согласования.</p></article>
+      <article class="step"><div class="n">03</div><h3>Готовим результат</h3><p>Разрабатываем документ по согласованным исходным данным и критериям.</p></article>
+      <article class="step"><div class="n">04</div><h3>Передаём и корректируем</h3><p>Передаём согласованный файл и вносим предусмотренные договорённостью правки.</p></article>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="experience">
+  <div class="wrap">
+    <div class="section-head"><div><div class="kicker">03 / Отраслевой опыт</div><h2>Опыт производства, а не только оформления документов.</h2></div><p>В работе опираемся на практический опыт специалистов с опытом работы в медицинском производстве и авиационном машиностроении.</p></div>
+    <div class="services">
+      <article class="service"><div class="num">EXPERIENCE / 01</div><h3>Авиационное машиностроение</h3><p>Опыт специалистов, работавших в авиационной отрасли, и понимание роли технологической дисциплины в производстве.</p><ul><li>Последовательность операций</li><li>Точность и однозначность инструкций</li><li>Внимание к контролю качества</li></ul></article>
+      <article class="service"><div class="num">EXPERIENCE / 02</div><h3>Медицинское производство</h3><p>Практический опыт работы в производственной среде медицинского оборудования.</p><ul><li>Рабочие и сборочные инструкции</li><li>Структурирование технических материалов</li><li>Удобство документов для исполнителя</li></ul></article>
+      <article class="service"><div class="num">EXPERIENCE / 03</div><h3>Практический подход</h3><p>Документация должна помогать выполнять работу одинаково и понятно, а не просто занимать место в папке.</p><ul><li>Работа по исходным данным заказчика</li><li>Согласование с ответственным специалистом</li><li>Учет требований конкретного производства</li></ul></article>
+    </div>
+    <div class="note">Отраслевой опыт специалистов не означает наличие у бюро специальных сертификатов, аккредитаций или допусков. Требования конкретного проекта согласуем отдельно.</div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="section-head"><div><div class="kicker">04 / Подход</div><h2>Инженерная аккуратность начинается с понимания процесса.</h2></div><p>Не подменяем знания о вашем изделии догадками. Работаем на основании материалов заказчика и согласованных требований.</p></div>
+    <div class="fit-grid">
+      <div class="fit"><h3>С какими задачами можно обратиться</h3><ul><li>Нужно оформить существующий процесс в инструкцию</li><li>Документ устарел и требует актуализации</li><li>Материалы разрознены и требуют структурирования</li><li>Нужны единые формы производственных записей</li></ul></div>
+      <div class="fit"><h3>Что нужно для старта</h3><ul><li>Описание операции или процесса</li><li>Доступные схемы, фотографии и документы</li><li>Внутренние требования к оформлению</li><li>Ответственный специалист для технического согласования</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="future">
+  <div class="wrap">
+    <div class="section-head"><div><div class="kicker">05 / Развитие</div><h2>Постепенно расширяем инженерные компетенции.</h2></div><p>Эти направления рассматриваются как возможные следующие этапы. Сейчас они не заявляются как доступные производственные услуги.</p></div>
+    <div class="future">
+	
+      <article class="future-card"><div class="icon">⁀➷</div><div class="tag">Следующий этап</div><h3>Кабельные сборки и жгуты</h3><p>Изготовление по документации заказчика, маркировка и проверка соединений после организации производственного процесса.</p></article>
+      <article class="future-card"><div class="icon">🗲</div><div class="tag">Перспектива</div><h3>Электронные блоки</h3><p>Монтаж, сборка и тестирование электронных узлов при наличии необходимых компетенций и производственных партнёров.</p></article>
+      <article class="future-card"><div class="icon">▤</div><div class="tag">Перспектива</div><h3>Электрические шкафы</h3><p>Комплектация и монтаж по документации заказчика после подтверждения ресурсов и требований к производству.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="wrap contact-grid">
+    <div class="contact-copy"><div class="kicker">06 / Контакт</div><h2>Есть задача по документации?</h2><p>Кратко опишите изделие, процесс и желаемый результат. После уточнения исходных данных можно оценить объём, сроки и стоимость.</p><div class="contact-meta">УРАЛНИМБУС · Инженерные решения для производства<br><br>Сайт находится в тестовом режиме.</div></div>
+   
+<div class="yandex-form">
+    <iframe
+        src="https://forms.yandex.ru/u/6ad24ac85057b2b4843f8eaa?iframe=1"
+        name="ya-form-6ad24ac85057b2b4843f8eaa"
+        title="Заявка в УРАЛНИМБУС"
+        frameborder="0"
+        width="100%"
+		
+        loading="lazy">
+    </iframe>
+</div>
+
+  </div>
+</section>
+</main>
+<footer class="footer"><div class="wrap footer-row"><div><strong>УРАЛНИМБУС</strong><div class="disclaimer">От технологии до изделия.</div></div><div>Инженерная документация для производства · <span id="year"></span></div><a href="#top">Наверх ↑</a></div></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+
+</script>
+</body>
+</html>
